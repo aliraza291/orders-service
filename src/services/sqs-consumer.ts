@@ -1,6 +1,6 @@
 import { Injectable, OnModuleInit } from '@nestjs/common';
 import { SQS } from 'aws-sdk';
-import { OrdersService } from '@/modules/orders/orders.service';
+import { OrdersService } from '../modules/orders/orders.service';
 import { config } from 'dotenv';
 config();
 @Injectable()
